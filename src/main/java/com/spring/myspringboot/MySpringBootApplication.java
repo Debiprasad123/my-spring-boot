@@ -24,4 +24,10 @@ public class MySpringBootApplication {
 	{
 		return "welcome";
 	}
+	
+	@GetMapping("/bye")
+	public String sayBye()
+	{
+		return "bye";
+	}
 }
