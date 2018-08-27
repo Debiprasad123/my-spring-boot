@@ -18,4 +18,10 @@ public class MySpringBootApplication {
 	{
 		return "hello";
 	}
+	
+	@GetMapping("/welocme")
+	public String sayWelcome()
+	{
+		return "welcome";
+	}
 }
